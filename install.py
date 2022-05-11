@@ -10,7 +10,7 @@ import sys
 sys.path.append('bin')
 from autojump_argparse import ArgumentParser  # noqa
 
-SUPPORTED_SHELLS = ('bash', 'zsh', 'fish', 'tcsh')
+SUPPORTED_SHELLS = ('sh', 'bash', 'zsh', 'fish', 'tcsh')
 
 
 def cp(src, dest, dryrun=False):
